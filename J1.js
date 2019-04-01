@@ -7,12 +7,7 @@ var s;
 var y=3/4;
 document.write(y+" ");
 document.write(s+x+"<br/>");
-//63 keywords into javascript
-//first letter of variale is $ ,_, alphabet
-/*Author of this program is shiv sharma*/
-//=== consider type also like integer or char
-//Control Statement
-//-----------------------------------------------------
+
 var x=5,i=1;
 
 if(x>0)
@@ -40,4 +35,24 @@ if(k!=null)
   {
     document.write("<br/>"+k+"x"+i+"="+x*i);
   }
+}
+//Event Handling
+function effect()
+{
+  var x=document.getElementById('para1');
+  x.style.backgroundColor="lightblue";
+
+}
+function effectback()
+{
+  var x=document.getElementById('para1');
+  x.style.backgroundColor="white";
+
+}
+//how to access html element in javascript
+function f1()
+{
+  var x=document.getElementById('p1');
+  alert(x.innerHTML);
+  x.innerHTML="This is Modified paragraph";
 }
