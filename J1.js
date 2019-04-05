@@ -56,3 +56,19 @@ function f1()
   alert(x.innerHTML);
   x.innerHTML="This is Modified paragraph";
 }
+//How to access CSS Element in javascript
+function f3()
+{
+  var x=document.getElementById('p1');
+  x.style.color="green";
+  x.style.fontSize="20px";
+}
+//Form Validation
+function validation()
+{
+  var result=true;
+  var i = document.getElementsByTagName("input");
+  if(i[0].value.length==0)
+  result=false;
+  return(result);
+}
