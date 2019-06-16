@@ -1,12 +1,48 @@
+h1
+{
+  text-align: center;
+  color: white;
+  font-family: cursive;
+}
+#a1
+{
+  border: white 2px solid;
+  padding: 10px 40px 40px 40px;
+}
+h2
+{
+  color: white;
+  font-family: monospace;
+}
+#a2
+{
+  text-align: right;
+}
+#a3
+{
+  border: black 2px solid;
+}
+.shiv
+{
+  font-family: monospace;
+}
+h3
+{
+  font-style: italic;
+
+  text-align: center;
+}
+#a4
+{
+  color: green;
+}
+#a5
+{
+  color: green;
+}
 p
 {
-color:red;
-}
-#p1
-{
-color:red;
-}
-.c1
-{
-color:blue;
+  color: white;
+  font-size: 20px;
+  font-style: oblique;
 }
